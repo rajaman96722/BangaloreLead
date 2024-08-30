@@ -18,7 +18,7 @@ public class JavaBasicDate {
 	     cal.add(Calendar.DAY_OF_MONTH, 30);
 	     String dateRequires= sim.format(cal.getTime());
 	     System.out.println(dateRequires);
-
+	     	System.out.println(actualDate);
 	}
 
 }
